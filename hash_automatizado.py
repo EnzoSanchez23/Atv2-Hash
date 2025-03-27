@@ -44,7 +44,7 @@ def analisar_arquivo(caminho_arquivo):
 
     return resultados
 
-# Exemplo de uso:
+#Alterar caminho do arquivo txt
 resultados = analisar_arquivo(r"C:\Users\enzos\Documents\Faculdade\Facul 8° Semestre\Segurança da Informacao\Labs Feitos\atv 2\Frases.txt")
 for linha in resultados:
     print(linha)
